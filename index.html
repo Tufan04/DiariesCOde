@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home-DiariesCode</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <script
+      src="https://kit.fontawesome.com/3fc04b5e39.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1 class="logo">Diaries<span>Code</span></h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button class="login btn" type="button">
+          <i class="fa-solid fa-right-to-bracket"></i>
+          <a href="#">Login</a>
+        </button>
+      </nav>
+    </header>
+    <div class="content">
+      <div class="left-content">
+        <h1 class="typing-animation">Learn <span class="auto-type"></span></h1>
+        <h1 class="normal-text">
+          & Become The Top Skilled Developer
+        </h1>
+        <p>
+          Discover the magic of coding at DiariesCode! Learn DSA and Web Development, where every code line is a step towards becoming a top-skilled developer. Join us and script your success story!</p>
+        <button class="view-courses btn" type="button"><a href="courses.html">View Courses</a></button>
+      </div>
+      <div class="right-content">
+        <img src="img/home-page.jpg" alt="image" />
+      </div>
+    </div>
+    <div>
+      <h1 class="community">Join Our Coding Family</h1>
+      <p class="community-text">
+        If you would like to keep up on the latest posts and courses, come by
+        and connect with us on the following links.
+      </p>
+      <div class="social">
+        <div class="youtube">
+          <img src="img/Youtube.webp" alt="Youtube" />
+          <h2 class="social-names">YouTube</h2>
+        </div>
+        <div class="linkedin">
+          <img src="img/Linked_In.webp" alt="Linkedin" />
+          <h2 class="social-names">LinkedIn</h2>
+        </div>
+        <div class="discord">
+          <img src="img/Discord.webp" alt="Discord" />
+          <h2 class="social-names">Discord</h2>
+        </div>
+        <div class="telegram">
+          <img src="img/Telegram.webp" alt="Telegram" />
+          <h2 class="social-names">Telegram</h2>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <h3>Diaries<span>Code</span></h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis
+          numquam optio vitae hic ut.
+        </p>
+        <ul class="footer-social">
+          <li>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-github"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-buttom">
+        <p>Copyright &copy; 2023 DiariesCode.</p>
+      </div>
+    </footer>
+    <!-- Load library from the CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Web Development", "DSA"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
